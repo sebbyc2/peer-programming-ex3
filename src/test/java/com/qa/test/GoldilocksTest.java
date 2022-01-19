@@ -23,6 +23,7 @@ public class GoldilocksTest {
 		assertEquals("1, 3, 5, 9, 12, 16, 19, 20, 22, 25, 27, 29", Goldilocks.goldilocks(90, 130));
 	}
 
+	@Test
 	public void test100_120_70() {
 		assertEquals("3, 9, 19, 22", Goldilocks.luminosity(100, 120, 70));
 	}
